@@ -94,7 +94,7 @@ START_IMG_URL = ["https://files.catbox.moe/nlumcw.jpg",
                  "https://files.catbox.moe/4wyd3q.jpg"]
     
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/1ec4q5.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/wkg861.mp4"
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/nlumcw.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/po9tcz.jpg"
@@ -102,7 +102,7 @@ TELEGRAM_AUDIO_URL = "https://files.catbox.moe/em3egx.jpg"
 TELEGRAM_VIDEO_URL = "https://files.catbox.moe/itvlnc.jpg"
 STREAM_IMG_URL = "https://files.catbox.moe/1ec4q5.jpg"
 SOUNCLOUD_IMG_URL = "https://files.catbox.moe/1ec4q5.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/4wyd3q.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/em3egx.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/rhyyq7.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/4wyd3q.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/rhyyq7.jpg"

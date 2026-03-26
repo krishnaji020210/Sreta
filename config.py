@@ -106,7 +106,7 @@ YOUTUBE_IMG_URL = "https://files.catbox.moe/em3egx.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/rhyyq7.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/4wyd3q.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/rhyyq7.jpg"
-PING_IMG_URL = "https://files.catbox.moe/nlumcw.jpg"
+
 
 
 def time_to_seconds(time):

@@ -11,9 +11,9 @@ from pytgcalls import PyTgCalls, exceptions, types
 from pytgcalls.pytgcalls_session import PyTgCallsSession
 
 import config
-from AviaxMusic import LOGGER, YouTube, app
-from AviaxMusic.misc import db
-from AviaxMusic.utils.database import (
+from AnonXMusic import LOGGER, YouTube, app
+from AnonXMusic.misc import db
+from AnonXMusic.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -28,11 +28,11 @@ from AviaxMusic.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from AviaxMusic.utils.exceptions import AssistantErr
-from AviaxMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
-from AviaxMusic.utils.inline.play import stream_markup
-from AviaxMusic.utils.stream.autoclear import auto_clean
-from AviaxMusic.utils.thumbnails import gen_thumb
+from AnonXMusic.utils.exceptions import AssistantErr
+from AnonXMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
+from AnonXMusic.utils.inline.play import stream_markup
+from AnonXMusic.utils.stream.autoclear import auto_clean
+from AnonXMusic.utils.thumbnails import gen_thumb
 from strings import get_string
 
 autoend = {}
@@ -73,7 +73,7 @@ async def _autoplay_background(call_instance, chat_id: int, popped: dict, last_v
 
         original_chat_id = popped.get("chat_id", chat_id)
 
-        from AviaxMusic.platforms.Youtube import download_song
+        from AnonXMusic.platforms.Youtube import download_song
         candidates = [suggested_id] + [v for v in related if v != suggested_id and v not in history]
         chosen_id = None
         chosen_file = None
